@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containermaster{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-exercise {
+    border: 1px solid black;
+    width: 20vw;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container-exercise__statement {
+    background-color: rgb(112, 174, 233);
+}
+
+.container-exercise__code-one {
+    text-align: center;
+    margin: 10px;
+}
+
+.container-exercise__code-one a:hover {
+    background-color: rgb(112, 174, 233);
+}
