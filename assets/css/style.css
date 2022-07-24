@@ -1,38 +1,133 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.containermaster{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.containermaster {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 .container-exercise {
-    border: 1px solid black;
-    width: 20vw;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px dashed black;
+  width: 22vw;
+  min-height: 40vh;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 .container-exercise__statement {
-    background-color: rgb(112, 174, 233);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
+/* EJERCICIO 01 */
 .container-exercise__code-one {
-    text-align: center;
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
 }
 
 .container-exercise__code-one a:hover {
-    background-color: rgb(112, 174, 233);
+  background-color: red;
+}
+
+/* EJERCICIO 02 */
+.container-exercise__code-two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.master:hover {
+  background-color: red;
+}
+
+/* EJERCICIO 03 */
+.container-exercise__code-three {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.container-exercise__code-three p:first-child {
+  background-color: red;
+}
+
+/* EJERCICIO 04 */
+.container-exercise__code-four {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.container-exercise__code-four form label {
+  display: block;
+}
+
+.container-exercise__code-four input:focus {
+  background-color: red;
+}
+
+/* EJERCICIO 05 */
+.container-exercise__code-five {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.container-exercise__code-five p::first-line {
+  background-color: red;
+}
+
+/* EJERCICIO 06 */
+.container-exercise__code-six {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.container-exercise__code-six p::first-letter {
+  background-color: red;
+}
+
+/* EJERCICIO 07 */
+.container-exercise__code-seven {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.container-exercise__code-seven p::before {
+  content: "😃";
+}
+
+.container-exercise__code-seven p::after {
+  content: "😃";
 }
