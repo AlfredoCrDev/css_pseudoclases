@@ -1,4 +1,4 @@
-# Desafio :alien: LarnU :alien: GitHub!
+# Desafio :alien: LarnU :alien: css_pseudoclases!
 
 Desafio #8 del Bootcamp LarnU, pseudoclases y pseudoelementos.
 
